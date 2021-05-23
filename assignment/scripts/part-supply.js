@@ -34,6 +34,7 @@ console.log(supplyChanges);
 //    - if the value is 0, skip it. Do not log it to the console.
 //    - if the value is negative, format the log as 'Part count -x.'
 console.log('6. Showing supplyChanges...');
+for ()
 
 
 // STRETCH GOALS
