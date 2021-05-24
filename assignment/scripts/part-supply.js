@@ -15,7 +15,7 @@ console.log(supplyChanges);
 
 // 3. Console log the value of 'supplyChanges' at index 2
 console.log('3. Item at index 2 is:');
-console.log('The index 2 value is:',supplyChanges [2]);
+console.log('item: index 2',supplyChanges [2]);
 
 // 4. The last item was added by mistake. Remove it from the 'supplyChanges'
 //    array & console.log the value removed.
@@ -34,7 +34,17 @@ console.log(supplyChanges);
 //    - if the value is 0, skip it. Do not log it to the console.
 //    - if the value is negative, format the log as 'Part count -x.'
 console.log('6. Showing supplyChanges...');
-for ()
+
+for (let i = 0; i <supplyChanges.length; i++)
+  if (supplyChanges[i]>0){
+  console.log('Added ' + supplyChanges[i] + ' Parts');
+}
+else if (supplyChanges[i] == 0){
+} else if (supplyChanges[i] < 0 ){
+console.log (' Part ' + ' count ' + supplyChanges[i]);
+i++;
+}
+
 
 
 // STRETCH GOALS
